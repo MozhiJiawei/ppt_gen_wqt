@@ -9,6 +9,8 @@ Use this skill for paper reports, agent method presentations, benchmark reviews,
 
 This is the default workflow for PPT generation and PPT editing tasks. When the user asks to create, refresh, restyle, or revise a PPT, you must use this skill and its bundled scripts unless the user explicitly asks for a different process.
 
+Keep all temporary artifacts, including drafts, generated scripts, extracted images, chart data, logs, intermediate PPT files, and checker output, under the project root `.tmp/tech-report-ppt-safe-layout/`. Do not write temporary artifacts into this skill repository or any other temporary directory.
+
 ## Goal
 
 Produce slides that are:
